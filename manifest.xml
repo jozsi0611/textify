@@ -13,10 +13,12 @@
             <iq:product id="fr735xt"/>
             <iq:product id="fr920xt"/>
             <iq:product id="fr935"/>
+            <iq:product id="fenix3hr"/>
         </iq:products>
         <iq:permissions/>
         <iq:languages>
             <iq:language>eng</iq:language>
+            <iq:language>hun</iq:language>
         </iq:languages>
         <iq:barrels/>
     </iq:application>
