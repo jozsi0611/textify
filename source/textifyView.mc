@@ -8,9 +8,9 @@ using Toybox.Time.Gregorian as Calendar;
 using Toybox.Application as App;
 
 class textifyView extends Ui.WatchFace {
-    hidden const unitString = [null, "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-    hidden const teenString = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
-    hidden const tenString = ["oh", "ten", "twenty", "thirty", "forty", "fifty", "sixty"];
+    hidden const unitString = [nulla, "egy", "kettő", "három", "négy", "öt", "hat", "hét", "nyolc", "kilenc"];
+    hidden const teenString = ["tíz", "tizenegy", "tizenkettő", "tizenhátom", "tizennégy", "tizenöt", "tizenhat", "tizenhét", "tizennyolc", "tizenkilenc"];
+    hidden const tenString = ["oh", "tíz", "húsz", "harminc", "negyven", "ötven", "hatvan"];
 	hidden var _DEBUG = false, _DEBUG_VAR = 0, fourtwenty = false;
 	hidden var penWidth = 4;
     hidden var timeFont, timeFontHeight, timeVerticalScale, timeVerticalCentre, dateFont, dateFontHeight;
